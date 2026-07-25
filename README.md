@@ -38,7 +38,7 @@ cp .env.example .env
 python -m app.seed
 
 # Start the API
-uvicorn app.main:app --reload
+python --version
 ```
 
 The API is now at `http://localhost:8000`. Interactive docs (try every endpoint from the browser) at **`http://localhost:8000/docs`**.

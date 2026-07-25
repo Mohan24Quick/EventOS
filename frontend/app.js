@@ -101,7 +101,7 @@ async function renderShell(activeHash, contentHtml, afterMount) {
   root.innerHTML = `
     <div class="shell">
       <aside class="sidebar">
-        <div class="brand"><span class="mark"></span><span class="name">Bro'sEvent</span></div>
+        <div class="brand"><span class="mark"></span><span class="name">BrosEvent</span></div>
         <div style="display:flex;flex-direction:column;gap:20px;">${navHtml}</div>
         <div class="sidebar-foot">
           <div class="who">${esc(state.user.name)}</div>
