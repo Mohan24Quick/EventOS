@@ -106,7 +106,7 @@ async function renderShell(activeHash, contentHtml, afterMount) {
         <div class="sidebar-foot">
           <div class="who">${esc(state.user.name)}</div>
           <div class="role-chip">${esc(state.user.role)}</div>
-          <div><button class="logout-btn" id="logoutBtn">Log Out</button></div>
+          <div><button class="logout-btn" id="logoutBtn">LOG OUT</button></div>
         </div>
       </aside>
       <div class="main">
